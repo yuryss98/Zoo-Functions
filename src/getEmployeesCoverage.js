@@ -31,7 +31,7 @@ const localizacaoAnimais = (obj) => {
   return arrLocation;
 };
 
-const infoDeTodasAsPessoas = () => {
+function infoDeTodasAsPessoas() {
   return employees.map((element) => {
     const test = infoDaPessoaEncontrada(element);
     const test2 = localizacaoAnimais(element);
@@ -42,7 +42,7 @@ const infoDeTodasAsPessoas = () => {
       locations: test2,
     };
   });
-};
+}
 
 function getEmployeesCoverage(obj) {
   if (!obj) return infoDeTodasAsPessoas();
