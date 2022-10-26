@@ -21,7 +21,7 @@ Desenvolver testes unitarios para funções ja criadas, e desenvolver funções 
 
 Clone o projeto
 
-  -- git clone
+  -- git clone git@github.com:yuryss98/Zoo-Functions.git
 
 Va para o diretorio do projeto
 
